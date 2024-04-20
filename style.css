@@ -1,0 +1,28 @@
+.rating {
+    display: inline-block;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 30px;
+    color: #ddd;
+    cursor: pointer;
+    padding-right: 5px;
+
+}
+
+.rating label:before {
+    content: '\2605';
+
+}
+
+.rating input:checked~label {
+    color: #f90;
+
+}
+span{
+color: red !important;
+}
